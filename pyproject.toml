@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "salesxp"
+version = "0.1.0"
+description = "销售活动计分库：活动、计划、进度与XP流水，持久化于SQLite"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["salesxp"]
